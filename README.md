@@ -1,4 +1,4 @@
-# 🛒 Administration Products
+# 🛒 Product Store
 
 Aplicación web para la gestión de productos. Permite visualizar, editar, eliminar y registrar artículos de un catálogo.  
 Frontend en **React + Vite**, backend en **Node.js + Express**, base de datos **MongoDB**.

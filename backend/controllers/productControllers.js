@@ -58,6 +58,7 @@ export const createProduct = async (req, res) => {
     await newProduct.save();
     res.status(201).json({
       status: "Succeeded creation",
+      message: "Product create successfully.",
       data: newProduct,
       error: null,
     });
@@ -93,6 +94,7 @@ export const updateProduct = async (req, res) => {
     res.status(200).json({
       status: "Succeded Update!!",
       success: true,
+      message: "Product updated successfully",
       data: updateProduct,
       error: null,
     });

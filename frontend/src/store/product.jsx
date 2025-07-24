@@ -21,7 +21,7 @@ export const useProductStore = create((set) => ({
 
     const data = await res.json();
     set((state) => ({ products: [...state.products, data.data] })); // el .data se pone igual que la respuesta que se da en el backend
-    return { success: true, message: "Product create successfully." };
+    return { success: true, message: data.message }; // El .message viene del controlador del backend
   },
 
   // función fetchProducts para obtener el listado de los productos

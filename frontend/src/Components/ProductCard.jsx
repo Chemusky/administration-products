@@ -69,7 +69,7 @@ const ProductCard = ({ product }) => {
     } else {
       toast({
         title: "Success",
-        description: "Product updated successfully", // se establece el string porque no hay mensaje de descripción en el back
+        description: message,
         status: "success",
         duration: 3000,
         isClosable: true,

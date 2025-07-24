@@ -27,8 +27,6 @@ Frontend en **React + Vite**, backend en **Node.js + Express**, base de datos **
 
 2. **Lanzar el comando `npm i` en la carpeta que contiene el frontend y backend.**
 
-3. **Lanzar el comando `npm i` en la carpeta frontend**
-
 ## ⚙️ Variables de entorno
 
 Crea un archivo `.env` en la raíz del proyecto con el siguiente contenido:
